@@ -7,7 +7,6 @@ from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
 
-
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 AIRTABLE_API_KEY = os.getenv("AIRTABLE_API_KEY")
 
